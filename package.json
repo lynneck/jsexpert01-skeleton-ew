@@ -1,0 +1,27 @@
+{
+ 
+  "name": "jsexpert01-skeleton-ew",
+  "description": "- Acesse o [index](./public/index/index.html) para visualizar a lista de titulos - Acesse o [bandersnatch](./public/bandersnatch/index.html) para acessar o titulo base do projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynneck/jsexpert01-skeleton-ew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lynneck/jsexpert01-skeleton-ew/issues"
+  },
+  "homepage": "https://github.com/lynneck/jsexpert01-skeleton-ew#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "mp4box": "^0.5.2"
+  }
+}
